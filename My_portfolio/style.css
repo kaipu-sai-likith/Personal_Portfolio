@@ -1,0 +1,135 @@
+header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    
+}
+
+.primarynavbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width: 130px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.pages{
+    display: flex;
+    
+}
+
+.section{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 300px;
+   
+    overflow: hidden;
+}
+
+.photo{
+    padding-top: 20px;
+    border-radius: 50;
+    height: 150px;
+    width: 150px;
+    float: right;
+    padding-right: 800px;
+}
+
+.slide {
+    display: none; 
+    padding-left: 70px;
+}
+
+
+
+.active {
+    display: block; 
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+body{
+    background-image: url('https://img.freepik.com/premium-photo/white-desk-with-clock-pen-it_1034058-104146.jpg?w=826');
+}
+
+.foot{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 1px solid #2a2a4a;
+}
+
+.links{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.github{
+    padding-left: 30px;
+    height: 50px    ;
+}
+
+.twitter{
+    padding-left: 30px;
+}
+
+.about{
+    float: right;
+    padding-left: 30px;
+}
+
+body {
+    transition: background-image 0.5s ease;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    pointer-events: none; 
+    transition: background-color 0.5s ease;
+}
+
